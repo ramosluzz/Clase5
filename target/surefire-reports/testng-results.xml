@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="34199" started-at="2020-01-20T14:14:51 ART" finished-at="2020-01-20T14:15:25 ART">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="34199" started-at="2020-01-20T14:14:51 ART" finished-at="2020-01-20T14:15:25 ART">
+      <class name="Ejercicio1.SearchTest">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@5e3a8624]" name="inicio" is-config="true" duration-ms="26394" started-at="2020-01-20T14:14:51 ART" finished-at="2020-01-20T14:15:18 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicio -->
+        <test-method status="PASS" signature="searchByTennis()[pri:0, instance:Ejercicio1.SearchTest@5e3a8624]" name="searchByTennis" duration-ms="6897" started-at="2020-01-20T14:15:18 ART" finished-at="2020-01-20T14:15:24 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTennis -->
+        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@5e3a8624]" name="fin" is-config="true" duration-ms="847" started-at="2020-01-20T14:15:24 ART" finished-at="2020-01-20T14:15:25 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+      </class> <!-- Ejercicio1.SearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
