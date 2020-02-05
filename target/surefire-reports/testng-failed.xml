@@ -5,9 +5,11 @@
     <classes>
       <class name="Ejercicio1.SearchTest">
         <methods>
-          <include name="searchByTennis"/>
           <include name="fin"/>
           <include name="inicio"/>
+          <include name="pre"/>
+          <include name="post"/>
+          <include name="searchByDressClickColor"/>
         </methods>
       </class> <!-- Ejercicio1.SearchTest -->
     </classes>
