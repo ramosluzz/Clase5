@@ -86,7 +86,7 @@ public class SearchTest {
 		index.ClickSelect("Price: Lowest first");
 		item.ClickById();
 		//stop.wait(3000);
-		WebDriverWait wait = new WebDriverWait(driver, 5);
+		WecmdbDriverWait wait = new WebDriverWait(driver, 5);
 		String result = driver.findElement(By.id("color_14")).getAttribute("name");
 		System.out.println("ARTICULO SELECCIONADO: " + result);
 		stop.wait(5000);
