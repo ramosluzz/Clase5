@@ -1,89 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="200109" started-at="2020-02-11T14:26:44 ART" finished-at="2020-02-11T14:30:05 ART">
+  <suite name="Surefire suite" duration-ms="37952" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:18 ART">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="200109" started-at="2020-02-11T14:26:44 ART" finished-at="2020-02-11T14:30:05 ART">
+    <test name="Surefire test" duration-ms="37952" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:18 ART">
       <class name="Ejercicio1.SearchTest">
-        <test-method status="PASS" signature="pre()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="pre" is-config="true" duration-ms="19" started-at="2020-02-11T14:26:44 ART" finished-at="2020-02-11T14:26:44 ART">
+        <test-method status="PASS" signature="pre()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="pre" is-config="true" duration-ms="18" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:20:40 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pre -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="23500" started-at="2020-02-11T14:26:44 ART" finished-at="2020-02-11T14:27:08 ART">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="inicio" is-config="true" duration-ms="22035" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:02 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="clickDress()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="clickDress" duration-ms="10082" started-at="2020-02-11T14:27:08 ART" description="Ejercicio 2.1 &gt; DRESSES" finished-at="2020-02-11T14:27:18 ART">
+        <test-method status="PASS" signature="searchByDressClickColor()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="searchByDressClickColor" duration-ms="15067" started-at="2020-02-11T16:21:02 ART" description="Ejercicio 2 (PO) -  verificar el color del ARTICULO" finished-at="2020-02-11T16:21:17 ART">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickDress -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="1950" started-at="2020-02-11T14:27:18 ART" finished-at="2020-02-11T14:27:20 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fin -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="19615" started-at="2020-02-11T14:27:20 ART" finished-at="2020-02-11T14:27:40 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="clickWomen()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="clickWomen" duration-ms="11003" started-at="2020-02-11T14:27:40 ART" description="Ejercicio 2.2 &gt; WOMEN" finished-at="2020-02-11T14:27:51 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickWomen -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="705" started-at="2020-02-11T14:27:51 ART" finished-at="2020-02-11T14:27:51 ART">
+        </test-method> <!-- searchByDressClickColor -->
+        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="fin" is-config="true" duration-ms="779" started-at="2020-02-11T16:21:18 ART" finished-at="2020-02-11T16:21:18 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fin -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="20419" started-at="2020-02-11T14:27:51 ART" finished-at="2020-02-11T14:28:12 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="loginIncorrecto()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="loginIncorrecto" duration-ms="6606" started-at="2020-02-11T14:28:12 ART" description="Ejercicio 4-Autentificación Erronea" finished-at="2020-02-11T14:28:18 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginIncorrecto -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="744" started-at="2020-02-11T14:28:18 ART" finished-at="2020-02-11T14:28:19 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fin -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="19657" started-at="2020-02-11T14:28:19 ART" finished-at="2020-02-11T14:28:39 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="searchExis()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="searchExis" duration-ms="6974" started-at="2020-02-11T14:28:39 ART" description="Ejercicio 1.1 - Exis, con PO" finished-at="2020-02-11T14:28:46 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchExis -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="741" started-at="2020-02-11T14:28:46 ART" finished-at="2020-02-11T14:28:46 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fin -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="21532" started-at="2020-02-11T14:28:46 ART" finished-at="2020-02-11T14:29:08 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="searchInex()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="searchInex" duration-ms="7494" started-at="2020-02-11T14:29:08 ART" description="Ejercicio 1.2 - Inex, con PO" finished-at="2020-02-11T14:29:16 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchInex -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="786" started-at="2020-02-11T14:29:16 ART" finished-at="2020-02-11T14:29:16 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fin -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="inicio" is-config="true" duration-ms="19048" started-at="2020-02-11T14:29:16 ART" finished-at="2020-02-11T14:29:35 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="selectTShirt()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="selectTShirt" duration-ms="28452" started-at="2020-02-11T14:29:35 ART" description="Ejercicio 3 &gt; Dropdowns" finished-at="2020-02-11T14:30:04 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTShirt -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="fin" is-config="true" duration-ms="723" started-at="2020-02-11T14:30:04 ART" finished-at="2020-02-11T14:30:05 ART">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fin -->
-        <test-method status="PASS" signature="post()[pri:0, instance:Ejercicio1.SearchTest@ae45eb6]" name="post" is-config="true" duration-ms="2" started-at="2020-02-11T14:30:05 ART" finished-at="2020-02-11T14:30:05 ART">
+        <test-method status="PASS" signature="post()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="post" is-config="true" duration-ms="0" started-at="2020-02-11T16:21:18 ART" finished-at="2020-02-11T16:21:18 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post -->

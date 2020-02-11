@@ -77,7 +77,7 @@ public class SearchTest {
 		stop.wait(5000);
 	}
 	
-	@Test (description = "Ejercicio 2 (PO),  verificar el color del ARTICULO", enabled = false)
+	@Test (description = "Ejercicio 2 (PO) -  verificar el color del ARTICULO", enabled = true)
 	public void searchByDressClickColor()
 	{
 		index.SearchAndClickById("Dress");

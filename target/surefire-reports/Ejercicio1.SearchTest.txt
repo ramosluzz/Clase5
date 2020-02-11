@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Ejercicio1.SearchTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.989 s - in Ejercicio1.SearchTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.82 s - in Ejercicio1.SearchTest
