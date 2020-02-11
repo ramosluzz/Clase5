@@ -9,7 +9,7 @@
           <include name="inicio"/>
           <include name="pre"/>
           <include name="post"/>
-          <include name="searchByDressClickColor"/>
+          <include name="loginIncorrecto"/>
         </methods>
       </class> <!-- Ejercicio1.SearchTest -->
     </classes>

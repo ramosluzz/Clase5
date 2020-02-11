@@ -11,6 +11,7 @@ public class Index {
 	private By heading;
 	private By iconList;
 	private By selectProduc;
+	
 	public Index (WebDriver driver)
 	{
 		this.driver = driver;
@@ -19,6 +20,7 @@ public class Index {
 		heading = By.className("heading-counter");
 		iconList =By.className("icon-th-list");
 		selectProduc = By.id("selectProductSort");
+
 	}
 	public void SearchAndClickById(String value)
 	{

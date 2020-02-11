@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,32 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="searchByDressClickColor">searchByDressClickColor</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="clickDress">clickDress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="clickWomen">clickWomen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="loginIncorrecto">loginIncorrecto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="searchExis">searchExis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="searchInex">searchInex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="Ejercicio1.SearchTest" hash-for-method="selectTShirt">selectTShirt</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -125,11 +150,56 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchByDressClickColor">
-                  </a> <!-- searchByDressClickColor -->
-                  <span class="method-name">searchByDressClickColor</span>
+                  <a name="clickDress">
+                  </a> <!-- clickDress -->
+                  <span class="method-name">clickDress</span>
                   <em>
-(Ejercicio 2, verificar el color seleccionado en el ARTICULO)                  </em>
+(Ejercicio 2.1 > DRESSES)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickWomen">
+                  </a> <!-- clickWomen -->
+                  <span class="method-name">clickWomen</span>
+                  <em>
+(Ejercicio 2.2 > WOMEN)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginIncorrecto">
+                  </a> <!-- loginIncorrecto -->
+                  <span class="method-name">loginIncorrecto</span>
+                  <em>
+(Ejercicio 4-Autentificación Erronea)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchExis">
+                  </a> <!-- searchExis -->
+                  <span class="method-name">searchExis</span>
+                  <em>
+(Ejercicio 1.1 - Exis, con PO)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchInex">
+                  </a> <!-- searchInex -->
+                  <span class="method-name">searchInex</span>
+                  <em>
+(Ejercicio 1.2 - Inex, con PO)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTShirt">
+                  </a> <!-- selectTShirt -->
+                  <span class="method-name">selectTShirt</span>
+                  <em>
+(Ejercicio 3 > Dropdowns)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +255,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchByDressClickColor')
+data.setCell(0, 1, 'selectTShirt')
 data.setCell(0, 2, 'Ejercicio1.SearchTest')
-data.setCell(0, 3, 12914);
+data.setCell(0, 3, 28452);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickWomen')
+data.setCell(1, 2, 'Ejercicio1.SearchTest')
+data.setCell(1, 3, 11003);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickDress')
+data.setCell(2, 2, 'Ejercicio1.SearchTest')
+data.setCell(2, 3, 10082);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchInex')
+data.setCell(3, 2, 'Ejercicio1.SearchTest')
+data.setCell(3, 3, 7494);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchExis')
+data.setCell(4, 2, 'Ejercicio1.SearchTest')
+data.setCell(4, 3, 6974);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginIncorrecto')
+data.setCell(5, 2, 'Ejercicio1.SearchTest')
+data.setCell(5, 3, 6606);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -209,7 +299,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -217,7 +307,9 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">searchByTennis</span>
                 <br/>
-                <span class="ignored-method-name">searchByTennis2</span>
+                <span class="ignored-method-name">searchByTennis1</span>
+                <br/>
+                <span class="ignored-method-name">searchByDressClickColor</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -239,16 +331,76 @@ return data;
                 <span class="method-start">30 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchByDressClickColor</span>
-                <span class="method-start">22297 ms</span>
+                <span class="method-name">clickDress</span>
+                <span class="method-start">23532 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">fin</span>
-                <span class="method-start">35218 ms</span>
+                <span class="method-start">33620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inicio</span>
+                <span class="method-start">35572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickWomen</span>
+                <span class="method-start">55187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fin</span>
+                <span class="method-start">66191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inicio</span>
+                <span class="method-start">66897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginIncorrecto</span>
+                <span class="method-start">87316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fin</span>
+                <span class="method-start">93923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inicio</span>
+                <span class="method-start">94669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchExis</span>
+                <span class="method-start">114326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fin</span>
+                <span class="method-start">121301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inicio</span>
+                <span class="method-start">122044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchInex</span>
+                <span class="method-start">143576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fin</span>
+                <span class="method-start">151071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inicio</span>
+                <span class="method-start">151859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectTShirt</span>
+                <span class="method-start">170907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">fin</span>
+                <span class="method-start">199359 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">post</span>
-                <span class="method-start">37450 ms</span>
+                <span class="method-start">200083 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

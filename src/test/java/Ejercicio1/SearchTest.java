@@ -2,9 +2,7 @@ package Ejercicio1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -19,7 +17,7 @@ import pages.Index;
 import pages.Item;
 
 public class SearchTest {
-	
+
 	WebDriver driver;
 	StaticSleep stop = new StaticSleep();
 	Index index;
@@ -71,26 +69,24 @@ public class SearchTest {
 		}
 	}
 	
-	@Test(description="Ejercicio1 con PO", enabled = false)
-	public void searchByTennis2()
+	@Test(description="Ejercicio 1 - con PO", enabled = false)
+	public void searchByTennis1()
 	{
 		index.SearchAndClickById("Tennis");
 		Assert.assertEquals(index.TextResult(), "0 results have been found.");
 		stop.wait(5000);
 	}
 	
-	@Test (description = "Ejercicio 2 (PO),  verificar el color del ARTICULO", enabled = true)
+	@Test (description = "Ejercicio 2 (PO),  verificar el color del ARTICULO", enabled = false)
 	public void searchByDressClickColor()
 	{
 		index.SearchAndClickById("Dress");
 		index.ClickSelect("Price: Lowest first");
 		item.ClickById();
-		//stop.wait(3000);
-		WecmdbDriverWait wait = new WebDriverWait(driver, 5);
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		stop.wait(3000);
 		String result = driver.findElement(By.id("color_14")).getAttribute("name");
 		System.out.println("ARTICULO SELECCIONADO: " + result);
 		stop.wait(5000);
 	}
-	
-	
 }
