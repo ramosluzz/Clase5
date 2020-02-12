@@ -16,7 +16,7 @@ import WaitSleep.StaticSleep;
 import pages.Index;
 import pages.Item;
 
-public class SearchTest {
+public class SearchDressTest {
 
 	WebDriver driver;
 	StaticSleep stop = new StaticSleep();
