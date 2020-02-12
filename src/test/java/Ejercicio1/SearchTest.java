@@ -86,7 +86,7 @@ public class SearchTest {
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		stop.wait(3000);
 		String result = driver.findElement(By.id("color_14")).getAttribute("name");
-		System.out.println("ARTICULO SELECCIONADO: " + result);
+		Assert.assertEquals(result, "Blue", "ARTICULO MAL SELECCIONADO");
 		stop.wait(5000);
 	}
 }

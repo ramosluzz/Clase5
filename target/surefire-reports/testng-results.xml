@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="37952" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:18 ART">
+  <suite name="Surefire suite" duration-ms="38102" started-at="2020-02-12T14:20:54 ART" finished-at="2020-02-12T14:21:32 ART">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="37952" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:18 ART">
+    <test name="Surefire test" duration-ms="38102" started-at="2020-02-12T14:20:54 ART" finished-at="2020-02-12T14:21:32 ART">
       <class name="Ejercicio1.SearchTest">
-        <test-method status="PASS" signature="pre()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="pre" is-config="true" duration-ms="18" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:20:40 ART">
+        <test-method status="PASS" signature="pre()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="pre" is-config="true" duration-ms="19" started-at="2020-02-12T14:20:54 ART" finished-at="2020-02-12T14:20:54 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pre -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="inicio" is-config="true" duration-ms="22035" started-at="2020-02-11T16:20:40 ART" finished-at="2020-02-11T16:21:02 ART">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="inicio" is-config="true" duration-ms="21955" started-at="2020-02-12T14:20:54 ART" finished-at="2020-02-12T14:21:16 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="searchByDressClickColor()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="searchByDressClickColor" duration-ms="15067" started-at="2020-02-11T16:21:02 ART" description="Ejercicio 2 (PO) -  verificar el color del ARTICULO" finished-at="2020-02-11T16:21:17 ART">
+        <test-method status="PASS" signature="searchByDressClickColor()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="searchByDressClickColor" duration-ms="15367" started-at="2020-02-12T14:21:16 ART" description="Ejercicio 2 (PO) -  verificar el color del ARTICULO" finished-at="2020-02-12T14:21:31 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByDressClickColor -->
-        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="fin" is-config="true" duration-ms="779" started-at="2020-02-11T16:21:18 ART" finished-at="2020-02-11T16:21:18 ART">
+        <test-method status="PASS" signature="fin()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="fin" is-config="true" duration-ms="717" started-at="2020-02-12T14:21:31 ART" finished-at="2020-02-12T14:21:32 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fin -->
-        <test-method status="PASS" signature="post()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="post" is-config="true" duration-ms="0" started-at="2020-02-11T16:21:18 ART" finished-at="2020-02-11T16:21:18 ART">
+        <test-method status="PASS" signature="post()[pri:0, instance:Ejercicio1.SearchTest@26653222]" name="post" is-config="true" duration-ms="1" started-at="2020-02-12T14:21:32 ART" finished-at="2020-02-12T14:21:32 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post -->
